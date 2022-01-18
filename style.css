@@ -1,0 +1,56 @@
+.page {
+  display: flex;
+  margin: 100px auto;
+  font-family: sans-serif;
+  font-size: 25px;
+  max-width: 1000px; 
+min-width: 800px;}
+
+.board {
+  height: 500px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.board__cell {
+  border-radius: 15px;
+  background-color: lightgray;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.acide-block {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.page__text {
+  min-height: 50px;
+  border-radius: 15px;
+  border: 10px solid lightgrey;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+.board__button {
+  display: block;
+  width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  border: 10px solid lightgrey;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.board__button:hover {
+  box-shadow: 10px 10px grey;
+}
+
+.board__button:active {
+  box-shadow: -10px -10px grey;
+}
